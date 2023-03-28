@@ -8,12 +8,9 @@
   },
   "devDependencies": {
     "babel-loader": "9.1.2",
-    "eslint": "8.36.0",
-    "npm-run-all": "4.1.5"
+    "eslint": "8.36.0"
   },
   "scripts": {
-    "build": "NODE_ENV=development npm-run-all --parallel",
-    "build:webpack": "webpack --progress --color --config webpack.config.js",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
