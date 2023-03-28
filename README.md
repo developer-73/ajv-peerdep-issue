@@ -21,6 +21,7 @@ This repo shows a problem with how npm@8.19.4 hoists dependencies while ignoring
 	
 	This is a problem because the hoisted ajv-keywords@^5.0.0 will not have its peer dependency on ajv@^8.8.0 met.
 	
+	Note: This works correctly on npm < 7 
 	
 **Steps to reproduce**
 	
