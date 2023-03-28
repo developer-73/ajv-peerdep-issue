@@ -41,6 +41,6 @@ This repo shows a problem with how npm@8.19.4 hoists dependencies while ignoring
 
 	|__@eslint
 	      |__avj@6.12.6
-        |__ajv@8.12.0            <<<<<---- |
+    |__ajv@8.12.0            <<<<<---- |
 	|__ajv-keywords@5.1.0    >>---|  Compatible with ajv@8.12.0
 	|__schema-utils@4.0.0
