@@ -22,7 +22,7 @@ This repo shows a problem with how npm@8.19.4 hoists dependencies with peer depe
 	This is a problem because the hoisted ajv-keywords@^5.0.0 will not have its peer dependency on ajv@^8.8.0 met.
 	
 	
-	**Steps to reproduce**
+	** Steps to reproduce **
 	- git clone https://github.com/developer-73/ajv-peerdep-issue.git
 	- npm install --legacy-peer-deps
 	- Verify node_modules, tree structure should be like:
