@@ -12,7 +12,6 @@ This repo shows a problem with how npm@8.19.4 hoists dependencies while ignoring
     - eslint@8.36.0 depends on avj@^6.12.4
     - babel-loader@^9.1.2 depends on schema-utils@^4.0.0 which further depends on :
 	  ajv@^8.8.0 and ajv-keywords@^5.0.0, where ajv-keywords has a peer dependency on ajv@^8.8.0 
-	  (which gets ignored and it gets hoisted) 
 	
 	While installing I am ignoring peer dependencies (--legacy-peer-deps), ajv-keywords@5.1.0 
 	still gets hoisted on the root level of node_modules and is using incorrect version of ajv@6.12.6. 
