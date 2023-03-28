@@ -1,7 +1,7 @@
 
 **Description:**
 
-This repo shows a problem with how npm@8.19.4 hoists dependencies while ignoring peer dependencies
+This repo shows a problem with how npm@8.19.4 hoists dependencies while ignoring peer dependencies (--legacy-peer-deps) during npm install
 
 
 	 I am using following devDependencies ::
